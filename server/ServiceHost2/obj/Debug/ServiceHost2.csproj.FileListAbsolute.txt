@@ -1,0 +1,85 @@
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+C:\WCF\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+C:\WCF\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+C:\WCF\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+C:\WCF\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+D:\cache\2008.06.17 WCF\wcf\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+D:\cache\2008.06.19 JianLi\Source\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+D:\Debug\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+D:\Debug\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+D:\Debug\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+D:\Debug\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+D:\Debug\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+D:\Debug\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+D:\Debug\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+D:\Debug\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+D:\Debug\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+F:\编程\JianLi3\source\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+F:\编程\JianLi3\source\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+F:\编程\JianLi3\source\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+F:\编程\JianLi3\source\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+D:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe.config
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\obj\Debug\WCF.ServiceHost2.exe
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\obj\Debug\WCF.ServiceHost2.pdb
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.exe
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.pdb
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceLib.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceLib.pdb
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceLib.xml
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\obj\Debug\ResolveAssemblyReference.cache
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\WCF.ServiceHost2.XML
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\Microsoft.Practices.Unity.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\cache\2008.06.19 JianLi\Source\server\ServiceHost2\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml

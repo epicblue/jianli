@@ -1,0 +1,152 @@
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3.exe.config
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\Interop.AcroPDFLib.dll
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\AxInterop.AcroPDFLib.dll
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.csproj.ResolveComReference.cache
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3.exe.manifest
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3.application
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3.exe
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3.pdb
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3Data.dll
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\WinShell.dll
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\Interop.AcroPDFLib.dll
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\AxInterop.AcroPDFLib.dll
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\WinShell.pdb
+F:\编程\JianLi3\source\client\JianLi3\bin\Debug\JianLi3Data.pdb
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\ResolveAssemblyReference.cache
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3_Content.g.cs
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3_MarkupCompile.cache
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3_MarkupCompile.lref
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.g.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.AboutBox1.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Books.BookEditForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi.Editor.ExplorerTreeControl.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Main.ProtypeForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.editor.UserLoginForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.AppSetting.AppSettingForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.editor.CreateBookFromFileNormalForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.HelpForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.KeywordSelectForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.views.BookInfoViewControl.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.BookLibControl.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.CreateBookFromFileForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Form1.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.KeywordsEditForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.NewFilesControl.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Properties.Resources.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.views.SearchResultBookViewControl.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.UserViewControl.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.csproj.GenerateResource.Cache
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.exe.manifest
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.application
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.exe
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.pdb
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.BookComments.CreateCommentForm.resources
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\JianLi3.JianLi3WinFormSettingsControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3.exe.config
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\Interop.AcroPDFLib.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.csproj.ResolveComReference.cache
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.exe
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3.exe.manifest
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3.application
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3.exe
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3Data.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\WinShell.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\Interop.AcroPDFLib.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\WinShell.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\bin\Debug\JianLi3Data.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\ResolveAssemblyReference.cache
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\Main\BookListView.g.cs
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3_Content.g.cs
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3_MarkupCompile.cache
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3_MarkupCompile.lref
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\Main\BookListView.baml
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.g.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.AboutBox1.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.BookComments.CreateCommentForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.Books.BookEditForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.views.BookInfoViewControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.JianLi3WinFormSettingsControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi.Editor.ExplorerTreeControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.KeywordsEditForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.KeywordSelectForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.Main.ProtypeForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.AppSetting.AppSettingForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.editor.CreateBookFromFileNormalForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.HelpForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.BookLibControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.CreateBookFromFileForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.Form1.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.NewFilesControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.Properties.Resources.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.views.SearchResultBookViewControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.editor.UserLoginForm.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.UserViewControl.resources
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.csproj.GenerateResource.Cache
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.exe.manifest
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3\obj\Debug\JianLi3.application
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\WPF\BookListView.g.cs
+F:\编程\JianLi3\source\client\JianLi3\obj\Debug\WPF\BookListView.baml
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3.exe.config
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.csproj.ResolveComReference.cache
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.exe
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\ResolveAssemblyReference.cache
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\WPF\BookListView.g.cs
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3_Content.g.cs
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3_MarkupCompile.cache
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3_MarkupCompile.lref
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\WPF\BookListView.baml
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.g.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.AboutBox1.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.BookComments.CreateCommentForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Books.BookEditForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.views.BookInfoViewControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.JianLi3WinFormSettingsControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi.Editor.ExplorerTreeControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.KeywordsEditForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.KeywordSelectForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Main.ProtypeForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.AppSetting.AppSettingForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.editor.CreateBookFromFileNormalForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.HelpForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.BookLibControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.CreateBookFromFileForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Form1.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.NewFilesControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.Properties.Resources.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.views.SearchResultBookViewControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.editor.UserLoginForm.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.UserViewControl.resources
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3.exe.manifest
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3.application
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3.exe
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3Data.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\WinShell.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\Interop.AcroPDFLib.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\AxInterop.AcroPDFLib.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\WinShell.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\JianLi3Data.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\Interop.AcroPDFLib.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\AxInterop.AcroPDFLib.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.exe.manifest
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\JianLi3.application
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\LusongControl.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\Microsoft.Dynamic.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\Microsoft.Scripting.Core.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\IronPython.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\Microsoft.Scripting.Debugging.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\Microsoft.Scripting.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\LusongControl.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\bin\Debug\IronPython.xml
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\GenerateResource-ResGen.read.5.tlog
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3\obj\Debug\GenerateResource-ResGen.write.1.tlog

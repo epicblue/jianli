@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{800D761D-B618-4BF6-9ABD-CED01914B38F}"
+	ProjectSection(SolutionItems) = preProject
+		JianLi3.vsmdi = JianLi3.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JianLi3", "JianLi3\JianLi3.csproj", "{2D7BD8FF-D9B4-4FC7-A23F-7BE11BC4DDB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinShell", "WinShell\WinShell.csproj", "{5C1F5D13-B5F3-46F6-8A25-D02D7D0C83B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JianLi3Data", "JianLi3Data\JianLi3Data.csproj", "{74A9D55F-9055-4DEF-99E4-9CF42AA11539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JianLi3DataTest", "JianLi3DataTest\JianLi3DataTest.csproj", "{2C06D7B2-DD94-4DA0-A416-1E4E3CBD5A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LusongControl", "LusongControl\LusongControl.csproj", "{8315BC7F-59B4-49D6-A62E-BC7C9FFD4880}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://powerbox-14qm8h:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = JianLi3\\JianLi3.csproj
+		SccProjectName1 = JianLi3
+		SccLocalPath1 = JianLi3
+		SccProjectUniqueName2 = WinShell\\WinShell.csproj
+		SccProjectName2 = WinShell
+		SccLocalPath2 = WinShell
+		SccProjectUniqueName3 = JianLi3Data\\JianLi3Data.csproj
+		SccProjectName3 = JianLi3Data
+		SccLocalPath3 = JianLi3Data
+		SccProjectUniqueName4 = JianLi3DataTest\\JianLi3DataTest.csproj
+		SccProjectName4 = JianLi3DataTest
+		SccLocalPath4 = JianLi3DataTest
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = JianLi3.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7BD8FF-D9B4-4FC7-A23F-7BE11BC4DDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7BD8FF-D9B4-4FC7-A23F-7BE11BC4DDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7BD8FF-D9B4-4FC7-A23F-7BE11BC4DDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7BD8FF-D9B4-4FC7-A23F-7BE11BC4DDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1F5D13-B5F3-46F6-8A25-D02D7D0C83B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1F5D13-B5F3-46F6-8A25-D02D7D0C83B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1F5D13-B5F3-46F6-8A25-D02D7D0C83B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1F5D13-B5F3-46F6-8A25-D02D7D0C83B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C06D7B2-DD94-4DA0-A416-1E4E3CBD5A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C06D7B2-DD94-4DA0-A416-1E4E3CBD5A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C06D7B2-DD94-4DA0-A416-1E4E3CBD5A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C06D7B2-DD94-4DA0-A416-1E4E3CBD5A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8315BC7F-59B4-49D6-A62E-BC7C9FFD4880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8315BC7F-59B4-49D6-A62E-BC7C9FFD4880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8315BC7F-59B4-49D6-A62E-BC7C9FFD4880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8315BC7F-59B4-49D6-A62E-BC7C9FFD4880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

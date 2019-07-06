@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="70bd0a83-130e-455f-9a57-49386083eba2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://htkssy-epicblue:12345/Message/Streamed/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="9837c694-cee9-4275-8e9f-9ffeb7c6bfc4" SourceId="1" SourceUrl="http://htkssy-epicblue:12345/Message/Streamed/mex" />
+    <MetadataFile FileName="Message1.xsd" MetadataType="Schema" ID="b8c88232-f397-4399-be00-5e1768f08380" SourceId="1" SourceUrl="http://htkssy-epicblue:12345/Message/Streamed/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="00007e7a-eac0-418e-b951-53cd5ae4233c" SourceId="1" SourceUrl="http://htkssy-epicblue:12345/Message/Streamed/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="46931afc-6c4d-42f3-9601-91a0961fb3dc" SourceId="1" SourceUrl="http://htkssy-epicblue:12345/Message/Streamed/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

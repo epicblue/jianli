@@ -1,0 +1,51 @@
+﻿最好实现一个由服务器端进行安全检查的版本。
+当前最好使用客户端来执行安全检查。
+
+分3种权限
+游客，不能察看数据
+一般用户，能查看数据，能添加自己的标签和类别，也能提交自己的标签和类别为标准标签和类别。
+高级用户，能查看数据，能添加自己的标签和类别，同时也能添加自己的标签和类别，同时还能批准别人的提交。
+管理员，批准一般用户升级到高级用户
+
+要求
+能消除直接访问数据库的隐患。
+
+[System Category]
+0-N	[System Category]
+0-N	[Private Category]
+0-N	[System Keyword]
+0-N	[Private Keyword]
+
+[Private Category]
+0-N	[Private Category]
+0-N	[Private Keyword]
+
+
+游客[群组]
+						Read
+[System Category]		V
+[Private Category]		X
+[System Keyword]		V
+[Private Keyword]		X
+
+
+一般用户[群组]
+						Create	Modify	Read	Delete
+[System Category]		X		Submit	V		Submit
+[Private Category]		V		V		V		V
+[System Keyword]		X		Submit	V		Submit
+[Private Keyword]		V		V		V		V
+
+
+高级用户[群组]
+						Create	Modify	Read	Delete
+[System Category]		X		V		V		V
+[Private Category]		V		V		V		V
+[System Keyword]		X		V		V		V
+[Private Keyword]		V		V		V		V
+
+
+管理员[拥有对群组的管理能力]
+				Create	Modify	GroupAdd	GroupRemove	Delete
+每个用户		V		V		V			V			V
+

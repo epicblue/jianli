@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLib", "ServiceLib\ServiceLib.csproj", "{E3B0AA5C-E4BC-41FA-B14C-26BB75F4A7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost2", "ServiceHost2\ServiceHost2.csproj", "{C910A7F2-59AF-4700-93BC-CD5C9B675E4C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://powerbox-14qm8h:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServiceHost2\\ServiceHost2.csproj
+		SccProjectName1 = ServiceHost2
+		SccLocalPath1 = ServiceHost2
+		SccProjectUniqueName2 = ServiceLib\\ServiceLib.csproj
+		SccProjectName2 = ServiceLib
+		SccLocalPath2 = ServiceLib
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = JianLi3.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3B0AA5C-E4BC-41FA-B14C-26BB75F4A7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B0AA5C-E4BC-41FA-B14C-26BB75F4A7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B0AA5C-E4BC-41FA-B14C-26BB75F4A7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B0AA5C-E4BC-41FA-B14C-26BB75F4A7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C910A7F2-59AF-4700-93BC-CD5C9B675E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C910A7F2-59AF-4700-93BC-CD5C9B675E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C910A7F2-59AF-4700-93BC-CD5C9B675E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C910A7F2-59AF-4700-93BC-CD5C9B675E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

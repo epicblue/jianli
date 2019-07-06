@@ -1,0 +1,12 @@
+- Sort and remove unused usings (Visual Studio 2005 only)
+- Better code snippets?
+- Sort members
+- Execute unit test (Visual Studio 2005 only)
+- Improved code outline (synchronized, drag and drop members, hide all private 
+  members, context menu, etc.)
+- Add insertion point option when generating properties  
+- Add insertion point option when generating constructor
+- Extract constant refactoring
+- Auto add using
+- Refactor: String format
+- View all project dependencies

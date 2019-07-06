@@ -1,0 +1,728 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WCF.ServiceLib</name>
+    </assembly>
+    <members>
+        <member name="T:WCF.ServiceLib.Sample.IHello">
+            <summary>
+            IHello接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Sample.IHello.SayHello(System.String)">
+            <summary>
+            打招呼方法
+            </summary>
+            <param name="name">人名</param>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Contract.Person">
+            <summary>
+            Person的实体类
+            </summary>
+        </member>
+        <member name="P:WCF.ServiceLib.Contract.Person.Age">
+            <summary>
+            Person的实体类的Age属性
+            </summary>
+        </member>
+        <member name="P:WCF.ServiceLib.Contract.Person.Name">
+            <summary>
+            Person的实体类的Name属性
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.SessionManagement.Hello">
+            <summary>
+            演示会话状态的接口
+            </summary>
+            <remarks>
+            InstanceContextMode - 获取或设置指示新服务对象何时创建的值。
+            InstanceContextMode.PerSession - 为每个会话创建一个新的 System.ServiceModel.InstanceContext 对象。
+            InstanceContextMode 的默认值为 InstanceContextMode.PerSession
+            </remarks>
+        </member>
+        <member name="T:WCF.ServiceLib.SessionManagement.IHello">
+            <summary>
+            演示会话状态的接口
+            </summary>NotAllowed
+            <remarks>
+            SessionMode - 获取或设置是否允许、不允许或要求会话
+            SessionMode.Allowed - 指定当传入绑定支持会话时，协定也支持会话（默认值）
+            SessionMode.Required -  指定协定需要会话绑定。如果绑定并未配置为支持会话，则将引发异常
+            SessionMode.NotAllowed - 指定协定永不支持启动会话的绑定
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.IHello.StartSession">
+            <summary>
+            初始化Session
+            </summary>
+            <remarks>
+            IsInitiating - 获取或设置一个值，该值指示方法是否实现可在服务器上启动会话（如果存在会话）的操作。
+            IsTerminating - 获取或设置一个值，该值指示服务操作在发送答复消息（如果存在）后，是否会导致服务器关闭会话。
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.IHello.StopSession">
+            <summary>
+            结束Session
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.IHello.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.IHello.GetSessionId">
+            <summary>
+            获取SessionId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.Hello.StartSession">
+            <summary>
+            初始化Session
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.Hello.StopSession">
+            <summary>
+            结束Session
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.Hello.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.SessionManagement.Hello.GetSessionId">
+            <summary>
+            获取SessionId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IDuplexReentrant">
+            <summary>
+            IDuplexReentrant接口（演示ConcurrencyMode.Reentrant）
+            </summary>
+            <remarks>
+            IDuplexReentrantCallback - 回调接口
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IDuplexReentrant.HelloDuplexReentrant(System.String)">
+            <summary>
+            Hello
+            </summary>
+            <param name="name">名字</param>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IDuplexReentrantCallback">
+            <summary>
+            IDuplexReentrant回调接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IDuplexReentrantCallback.HelloDuplexReentrantCallback(System.String)">
+            <summary>
+            Hello
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:WCF.ServiceLib.Exception.Hello">
+            <summary>
+            Hello类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Exception.IHello">
+            <summary>
+            IHello接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.IHello.HelloException">
+            <summary>
+            抛出Exception异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.IHello.HelloFaultException">
+            <summary>
+            抛出FaultException异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.IHello.HelloFaultExceptionGeneric">
+            <summary>
+            抛出FaultException泛型T异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.IHello.HelloIErrorHandler">
+            <summary>
+            IErrorHandler处理异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.HelloException">
+            <summary>
+            抛出Exception异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.HelloFaultException">
+            <summary>
+            抛出FaultException异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.HelloFaultExceptionGeneric">
+            <summary>
+            抛出FaultException泛型T异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.HelloIErrorHandler">
+            <summary>
+            IErrorHandler处理异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.Dispose">
+            <summary>
+            实现IDisposable接口的Dispose()方法
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.AddBindingParameters(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase,System.Collections.ObjectModel.Collection{System.ServiceModel.Description.ServiceEndpoint},System.ServiceModel.Channels.BindingParameterCollection)">
+            <summary>
+            为契约增加自定义绑定参数
+            </summary>
+            <param name="serviceDescription">服务描述</param>
+            <param name="serviceHostBase">服务宿主</param>
+            <param name="endpoints">服务端点</param>
+            <param name="bindingParameters">需要增加的自定义绑定参数</param>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.ApplyDispatchBehavior(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+            <summary>
+            runtime时修改属性值或增加自定义扩展对象
+            </summary>
+            <param name="serviceDescription">服务描述</param>
+            <param name="serviceHostBase">服务宿主</param>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.Hello.Validate(System.ServiceModel.Description.ServiceDescription,System.ServiceModel.ServiceHostBase)">
+            <summary>
+            检查服务描述和服务宿主，以确认服务可以成功运行
+            </summary>
+            <param name="serviceDescription">服务描述</param>
+            <param name="serviceHostBase">服务宿主</param>
+        </member>
+        <member name="T:WCF.ServiceLib.Exception.FaultMessage">
+            <summary>
+            错误信息实体类（用于错误契约FaultContract）
+            </summary>
+        </member>
+        <member name="P:WCF.ServiceLib.Exception.FaultMessage.Message">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:WCF.ServiceLib.Exception.FaultMessage.ErrorCode">
+            <summary>
+            错误代码
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Binding.Hello">
+            <summary>
+            Hello类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Binding.IHello">
+            <summary>
+            IHello接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Binding.IHello.SayHello(System.String)">
+            <summary>
+            打招呼方法
+            </summary>
+            <param name="name">人名</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Binding.Hello.SayHello(System.String)">
+            <summary>
+            打招呼方法
+            </summary>
+            <param name="name">人名</param>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.Mtom">
+            <summary>
+            Mtom类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IMtom">
+            <summary>
+            IMtom接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IMtom.UploadFile(System.String,System.Byte[])">
+            <summary>
+            上传文件
+            </summary>
+            <param name="path">文件目标路径</param>
+            <param name="fileData">文件字节数组</param>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Mtom.UploadFile(System.String,System.Byte[])">
+            <summary>
+            上传文件
+            </summary>
+            <param name="path">文件目标路径</param>
+            <param name="fileData">文件字节数组</param>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.DuplexReentrant">
+            <summary>
+            DuplexReentrant类 （演示ConcurrencyMode.Reentrant）
+            </summary>
+            <remarks>
+            ConcurrencyMode - 获取或设置一个值，该值指示服务是支持单线程、多线程还是支持可重入调用。默认值为 System.ServiceModel.ConcurrencyMode.Single。
+            Single - 服务实例是单线程的，且不接受可重入调用。
+            Reentrant - 服务实例是单线程的，且接受可重入调用。
+            Multiple - 服务实例是多线程的。
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.DuplexReentrant.HelloDuplexReentrant(System.String)">
+            <summary>
+            Hello
+            </summary>
+            <param name="name">名字</param>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.OneWay">
+            <summary>
+            OneWay类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IOneWay">
+            <summary>
+            IOneWay接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IOneWay.WithoutOneWay">
+            <summary>
+            不使用OneWay(同步调用)
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IOneWay.WithOneWay">
+            <summary>
+            使用OneWay(异步调用)
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.OneWay.WithoutOneWay">
+            <summary>
+            不使用OneWay(同步调用)
+            抛出Exception异常
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.OneWay.WithOneWay">
+            <summary>
+            使用OneWay(异步调用)
+            抛出Exception异常
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Serialization.BinaryFormatterObject">
+            <summary>
+            用于演示Binary序列化的实体类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Exception.FaultErrorHandler">
+            <summary>
+            自定义错误处理器（继承自System.ServiceModel.Dispatcher.IErrorHandler）
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.FaultErrorHandler.HandleError(System.Exception)">
+            <summary>
+            在异常返回给客户端之后被调用
+            </summary>
+            <param name="error">异常</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Exception.FaultErrorHandler.ProvideFault(System.Exception,System.ServiceModel.Channels.MessageVersion,System.ServiceModel.Channels.Message@)">
+            <summary>
+            在异常发生后，异常信息返回前被调用
+            </summary>
+            <param name="error">异常</param>
+            <param name="version">SOAP版本</param>
+            <param name="fault">返回给客户端的错误信息</param>
+        </member>
+        <member name="T:WCF.ServiceLib.Contract.PersonManager">
+            <summary>
+            人员管理类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Contract.IPersonManager">
+            <summary>
+            人员管理接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Contract.IPersonManager.GetName(WCF.ServiceLib.Contract.Person)">
+            <summary>
+            获取某人的姓名
+            </summary>
+            <param name="p">Person对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Contract.PersonManager.GetName(WCF.ServiceLib.Contract.Person)">
+            <summary>
+            获取某人的姓名
+            </summary>
+            <param name="p">Person对象</param>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.ConcurrencyLock.Hello">
+            <summary>
+            演示并发控制(锁)的接口
+            </summary>
+            <remarks>
+            ServiceBehavior - 指定服务协定实现的内部执行行为
+            实例模型：单例；并发模式：多线程
+            会有并发问题，通过 锁 来解决
+            </remarks>
+        </member>
+        <member name="T:WCF.ServiceLib.ConcurrencyLock.IHello">
+            <summary>
+            演示并发控制(锁)的接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.IHello.Counter(WCF.ServiceLib.ConcurrencyLock.LockType)">
+            <summary>
+            计数器
+            </summary>
+            <param name="lockType">锁的类型</param>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.IHello.GetResult">
+            <summary>
+            获取计数器被调用的结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.IHello.CleanResult">
+            <summary>
+            清空计数器和结果
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.Counter(WCF.ServiceLib.ConcurrencyLock.LockType)">
+            <summary>
+            计数器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.GetResult">
+            <summary>
+            获取计数器被调用的结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.CleanResult">
+            <summary>
+            清空计数器和结果
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.CircleCounter">
+            <summary>
+            循环调用技术器，以模拟并发
+            结果中，出现重复计数，则有并发问题，反之，则无并发问题
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.ExecuteNone">
+            <summary>
+            不使用任何并发控制
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.ExecuteMutex">
+            <summary>
+            Mutex的实现
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.ExecuteSemaphore">
+            <summary>
+            Semaphore的实现
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.ExecuteMonitor">
+            <summary>
+            Monitor的实现
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.ConcurrencyLock.Hello.ExecuteLock">
+            <summary>
+            Lock的实现
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.Duplex">
+            <summary>
+            Duplex类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IDuplex">
+            <summary>
+            IDuplex接口
+            </summary>
+            <remarks>
+            CallbackContract - 回调接口
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IDuplex.HelloDuplex(System.String)">
+            <summary>
+            Hello
+            </summary>
+            <param name="name">名字</param>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Duplex.HelloDuplex(System.String)">
+            <summary>
+            Hello
+            </summary>
+            <param name="name">名字</param>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IDuplexCallback">
+            <summary>
+            IDuplex回调接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IDuplexCallback.HelloDuplexCallback(System.String)">
+            <summary>
+            Hello
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:WCF.ServiceLib.ConcurrencyLock.LockType">
+            <summary>
+            锁 类型的枚举
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.ConcurrencyLock.LockType.None">
+            <summary>
+            不使用任何并发控制
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.ConcurrencyLock.LockType.Mutex">
+            <summary>
+            Mutex
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.ConcurrencyLock.LockType.Semaphore">
+            <summary>
+            Semaphore
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.ConcurrencyLock.LockType.Monitor">
+            <summary>
+            Monitor
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.ConcurrencyLock.LockType.Lock">
+            <summary>
+            Lock
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.InstanceMode.IPerCallMode">
+            <summary>
+            演示实例模型的接口（PerCall）
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.InstanceMode.IPerCallMode.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.InstanceMode.PerCallMode">
+            <summary>
+            演示实例模型的类（PerCall）
+            </summary>
+            <remarks>
+            InstanceContextMode - 获取或设置指示新服务对象何时创建的值。
+            InstanceContextMode.PerCall - 新的 System.ServiceModel.InstanceContext 对象在每次调用前创建，在调用后回收。
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.InstanceMode.PerCallMode.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.FileWrapper">
+            <summary>
+            消息契约（定义与 SOAP 消息相对应的强类型类）
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.Message.FileWrapper.FilePath">
+            <summary>
+            指定数据成员为 SOAP 消息头
+            </summary>
+        </member>
+        <member name="F:WCF.ServiceLib.Message.FileWrapper.FileData">
+            <summary>
+            指定将成员序列化为 SOAP 正文中的元素
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.IStreamed">
+            <summary>
+            IStreamed接口
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IStreamed.UploadFile(WCF.ServiceLib.Message.FileWrapper)">
+            <summary>
+            上传文件
+            </summary>
+            <remarks>
+            1、支持数据流传输的绑定有：BasicHttpBinding、NetTcpBinding 和 NetNamedPipeBinding
+            2、流数据类型必须是可序列化的 Stream 或 MemoryStream
+            3、传递时消息体(Message Body)中不能包含其他数据，即参数中只能有一个System.ServiceModel.MessageBodyMember
+            </remarks>
+            <param name="fileWrapper">WCF.ServiceLib.Message.FileWrapper</param>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IStreamed.DownloadFile(System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="subpath">相对于lib目录的子目录</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IStreamed.MoveIncontrolFolder(System.String,System.String)">
+            <summary>
+            将文件从临时文件夹中转移出来.
+            </summary>
+            <param name="filename">文件名,不包括文件路径.</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.IStreamed.MoveFileInLib(System.String,System.String)">
+            <summary>
+            在incontrol目录中移动文件.
+            </summary>
+            <param name="sourcepath">相对路径,相对于incontrol目录</param>
+            <param name="descpath">相对路径,相对于incontrol目录</param>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Serialization.DataContractJsonSerializerObject">
+            <summary>
+            用于演示JSON序列化的实体类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Message.Streamed">
+            <summary>
+            IStreamed类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Streamed.UploadFile(WCF.ServiceLib.Message.FileWrapper)">
+            <summary>
+            上传文件(对客户端来说)
+            </summary>
+            <param name="fileWrapper">WCF.ServiceLib.Message.FileWrapper</param>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Streamed.DownloadFile(System.String)">
+            <summary>
+            下载文件(对客户端来说),仅提供服务器端incontrol目录下的文件下载.
+            </summary>
+            <param name="controlpath">相对路径,相对于incontrol</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Streamed.MoveIncontrolFolder(System.String,System.String)">
+            <summary>
+            将文件从临时文件夹中转移出来.
+            </summary>
+            <param name="filename">文件名,不包括文件路径.</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Streamed.MoveFileInLib(System.String,System.String)">
+            <summary>
+            在incontrol目录中移动文件.
+            </summary>
+            <param name="sourcepath">相对路径,相对于incontrol目录</param>
+            <param name="descpath">相对路径,相对于incontrol目录</param>
+            <returns></returns>
+        </member>
+        <member name="M:WCF.ServiceLib.Message.Streamed.CreateSubfolderInLib(System.String)">
+            <summary>
+            建立唯一子目录
+            </summary>
+            <param name="subpath">相对lib的子目录</param>
+            <returns>相对lib的子目录</returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Contract.Student">
+            <summary>
+            Student的实体类
+            </summary>
+        </member>
+        <member name="P:WCF.ServiceLib.Contract.Student.School">
+            <summary>
+            Student的实体类的School属性
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Serialization.SoapFormatterOjbect">
+            <summary>
+            用于演示Soap序列化的实体类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.InstanceMode.IPerSessionMode">
+            <summary>
+            演示实例模型的接口（PerSession）
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.InstanceMode.IPerSessionMode.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.InstanceMode.PerSessionMode">
+            <summary>
+            演示实例模型的类（PerCall）
+            </summary>
+            <remarks>
+            InstanceContextMode - 获取或设置指示新服务对象何时创建的值。
+            InstanceContextMode.PerSession - 为每个会话创建一个新的 System.ServiceModel.InstanceContext 对象。
+            InstanceContextMode 的默认值为 InstanceContextMode.PerSession
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.InstanceMode.PerSessionMode.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.Serialization.XmlSerializerObject">
+            <summary>
+            用于演示XML序列化的实体类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Serialization.DataContractSerializerObject">
+            <summary>
+            用于演示DataContract序列化的实体类
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceLib.Sample.Hello">
+            <summary>
+            Hello类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.Sample.Hello.SayHello(System.String)">
+            <summary>
+            打招呼方法
+            </summary>
+            <param name="name">人名</param>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.InstanceMode.ISingleMode">
+            <summary>
+            演示实例模型的接口（Single）
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceLib.InstanceMode.ISingleMode.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WCF.ServiceLib.InstanceMode.SingleMode">
+            <summary>
+            演示实例模型的接口（Single）
+            </summary>
+            <remarks>
+            InstanceContextMode - 获取或设置指示新服务对象何时创建的值。
+            InstanceContextMode.Single - 只有一个 System.ServiceModel.InstanceContext 对象用于所有传入呼叫，并且在调用后不回收。如果服务对象不存在，则创建一个。
+            </remarks>
+        </member>
+        <member name="M:WCF.ServiceLib.InstanceMode.SingleMode.Counter">
+            <summary>
+            获取计数器结果
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

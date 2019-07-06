@@ -1,0 +1,66 @@
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\bin\Debug\WCF.ServiceLib.dll.config
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\wanglei\桌面\ServiceLib\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+C:\Documents and Settings\wanglei\桌面\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\wanglei\桌面\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+C:\Documents and Settings\wanglei\桌面\WCF\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\wanglei\桌面\WCF\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\wanglei\桌面\WCF\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+C:\Documents and Settings\wanglei\桌面\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+C:\Documents and Settings\Administrator\桌面\WCF\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+C:\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+C:\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+C:\WCF\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+C:\WCF\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+C:\WCF\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+C:\WCF\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.17 WCF\wcf\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.17 WCF\wcf\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.17 WCF\wcf\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+D:\cache\2008.06.17 WCF\wcf\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.17 WCF\wcf\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.17 WCF\wcf\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+D:\cache\2008.06.19 JianLi\Source\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+D:\cache\2008.06.19 JianLi\Source\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.19 JianLi\Source\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.19 JianLi\Source\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+D:\cache\2008.06.19 JianLi\Source\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.19 JianLi\Source\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+D:\Debug\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+D:\Debug\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+D:\Debug\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Debug\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+D:\Debug\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+F:\编程\JianLi3\source\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+F:\编程\JianLi3\source\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+F:\编程\JianLi3\source\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+F:\编程\JianLi3\source\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+F:\编程\JianLi3\source\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+F:\编程\JianLi3\source\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.19 JianLi\Source\server\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+D:\cache\2008.06.19 JianLi\Source\server\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+D:\cache\2008.06.19 JianLi\Source\server\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+D:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\WCF.ServiceLib.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\WCF.ServiceLib.pdb
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\obj\Debug\ResolveAssemblyReference.cache
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\obj\Debug\WCF.ServiceLib.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\obj\Debug\WCF.ServiceLib.pdb
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\WCF.ServiceLib.XML
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\Microsoft.Practices.Unity.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\cache\2008.06.19 JianLi\Source\server\ServiceLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml

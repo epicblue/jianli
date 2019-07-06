@@ -1,0 +1,21 @@
+F:\编程\JianLi3\source\client\JianLi3DataTest\bin\Debug\JianLi3DataTest.dll
+F:\编程\JianLi3\source\client\JianLi3DataTest\bin\Debug\JianLi3DataTest.pdb
+F:\编程\JianLi3\source\client\JianLi3DataTest\bin\Debug\WinShell.dll
+F:\编程\JianLi3\source\client\JianLi3DataTest\bin\Debug\WinShell.pdb
+F:\编程\JianLi3\source\client\JianLi3DataTest\obj\Debug\ResolveAssemblyReference.cache
+F:\编程\JianLi3\source\client\JianLi3DataTest\obj\Debug\JianLi3DataTest.dll
+F:\编程\JianLi3\source\client\JianLi3DataTest\obj\Debug\JianLi3DataTest.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\bin\Debug\JianLi3DataTest.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\bin\Debug\JianLi3DataTest.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\bin\Debug\WinShell.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\bin\Debug\WinShell.pdb
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\obj\Debug\ResolveAssemblyReference.cache
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\obj\Debug\JianLi3DataTest.dll
+C:\cache\2008.06.19 JianLi\Source\client\JianLi3DataTest\obj\Debug\JianLi3DataTest.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\bin\Debug\JianLi3DataTest.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\bin\Debug\JianLi3DataTest.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\bin\Debug\WinShell.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\bin\Debug\WinShell.pdb
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\obj\Debug\ResolveAssemblyReference.cache
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\obj\Debug\JianLi3DataTest.dll
+I:\私人\2010\Prj-JianLi3\source\client\JianLi3DataTest\obj\Debug\JianLi3DataTest.pdb

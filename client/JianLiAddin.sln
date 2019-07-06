@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B76DE1A0-0DFE-4BF2-B8E4-EB24E4A82CA3}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\deploy.bat = Solution Items\deploy.bat
+		Solution Items\JianLi.AddIn = Solution Items\JianLi.AddIn
+		Solution Items\NMock2.dll = Solution Items\NMock2.dll
+		Solution Items\Readme.txt = Solution Items\Readme.txt
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JianLiVSAddin", "Koda\JianLiVSAddin.csproj", "{2E2CFDEC-5E01-4E6F-83F6-5C83E7D00746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JianLi3Data", "JianLi3Data\JianLi3Data.csproj", "{74A9D55F-9055-4DEF-99E4-9CF42AA11539}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://powerbox-14qm8h:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = JianLi3Data\\JianLi3Data.csproj
+		SccProjectName1 = JianLi3Data
+		SccLocalPath1 = JianLi3Data
+		SccProjectUniqueName2 = Koda\\JianLiVSAddin.csproj
+		SccProjectName2 = Koda
+		SccLocalPath2 = Koda
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = JianLi3.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E2CFDEC-5E01-4E6F-83F6-5C83E7D00746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2CFDEC-5E01-4E6F-83F6-5C83E7D00746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2CFDEC-5E01-4E6F-83F6-5C83E7D00746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2CFDEC-5E01-4E6F-83F6-5C83E7D00746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A9D55F-9055-4DEF-99E4-9CF42AA11539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

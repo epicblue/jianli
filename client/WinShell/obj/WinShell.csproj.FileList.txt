@@ -1,0 +1,5 @@
+bin\Debug\WinShell.dll
+bin\Debug\WinShell.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinShell.dll
+obj\Debug\WinShell.pdb

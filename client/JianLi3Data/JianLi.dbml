@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="JianLi" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=POWERBOX-14QM8H;Initial Catalog=JianLi;Integrated Security=True" SettingsObjectName="JianLi3Data.Properties.Settings" SettingsPropertyName="JianLiConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Categories" Member="Categories">
+    <Type Name="Categories">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryDesc" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryParent" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Categories_Keywords" Member="Keywords" ThisKey="CategoryID" OtherKey="CategoryId" Type="Keywords" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Writers" Member="Writers">
+    <Type Name="Writers">
+      <Column Name="WriterID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="WriterFullName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="WriterDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Writers_BookWriters" Member="BookWriters" ThisKey="WriterID" OtherKey="WriterId" Type="BookWriters" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BookKeywords" Member="BookKeywords">
+    <Type Name="BookKeywords">
+      <Column Name="BookId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KeywordId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Keywords_BookKeywords" Member="Keywords" ThisKey="KeywordId" OtherKey="KeywordID" Type="Keywords" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Book_BookKeywords" Member="Book" ThisKey="BookId" OtherKey="BookID" Type="Book" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BookWriters" Member="BookWriters">
+    <Type Name="BookWriters">
+      <Column Name="BookId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WriterId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Writers_BookWriters" Member="Writers" ThisKey="WriterId" OtherKey="WriterID" Type="Writers" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Book_BookWriters" Member="Book" ThisKey="BookId" OtherKey="BookID" Type="Book" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserBooks" Member="UserBooks">
+    <Type Name="UserBooks">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BookID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BookRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BookReadCounts" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BookReadTime" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BookReadTick" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Book_UserBooks" Member="Book" ThisKey="BookID" OtherKey="BookID" Type="Book" IsForeignKey="true" />
+      <Association Name="User_UserBooks" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Keywords" Member="Keywords">
+    <Type Name="Keywords">
+      <Column Name="KeywordID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KeywordName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="KeywordDesc" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeywordRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KeywordSubPath" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Keywords_BookKeywords" Member="BookKeywords" ThisKey="KeywordID" OtherKey="KeywordId" Type="BookKeywords" />
+      <Association Name="Keywords_Book" Member="Books" ThisKey="KeywordID" OtherKey="BookDefaultKeyword" Type="Book" />
+      <Association Name="Categories_Keywords" Member="Categories" ThisKey="CategoryId" OtherKey="CategoryID" Type="Categories" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Help" Member="Helps">
+    <Type Name="Help">
+      <Column Name="HelpSubmitUser" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HelpTitle" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="HelpContext" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HelpAnswer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HelpAnswered" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserKeywords" Member="UserKeywords">
+    <Type Name="UserKeyword">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KeywordID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KeywordRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="User_UserKeyword" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tools" Member="Tools">
+    <Type Name="Tool">
+      <Column Name="ToolID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ToolName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ToolSubPath" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ToolRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ToolDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ToolCompany" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CategoryID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="Tool_ToolVersion" Member="ToolVersions" ThisKey="ToolID" OtherKey="ToolID" Type="ToolVersion" />
+      <Association Name="ToolCategory_Tool" Member="ToolCategory" ThisKey="CategoryID" OtherKey="CategoryID" Type="ToolCategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolVersions" Member="ToolVersions">
+    <Type Name="ToolVersion">
+      <Column Name="VersionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ToolID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="SubPath" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="VersionName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="ToolVersion_ToolFile" Member="ToolFiles" ThisKey="VersionID" OtherKey="ToolVersionID" Type="ToolFile" />
+      <Association Name="ToolVersion_ToolPlugin" Member="ToolPlugins" ThisKey="VersionID" OtherKey="ToolVersionID" Type="ToolPlugin" />
+      <Association Name="ToolVersion_ToolPlugin1" Member="ToolPlugins1" ThisKey="VersionID" OtherKey="PluginToolVersionID" Type="ToolPlugin" />
+      <Association Name="ToolVersion_ToolDepend" Member="ToolDepends" ThisKey="VersionID" OtherKey="ToolVersionID" Type="ToolDepend" />
+      <Association Name="ToolVersion_ToolDepend1" Member="ToolDepends1" ThisKey="VersionID" OtherKey="DependToolVersionID" Type="ToolDepend" />
+      <Association Name="Tool_ToolVersion" Member="Tool" ThisKey="ToolID" OtherKey="ToolID" Type="Tool" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolFiles" Member="ToolFiles">
+    <Type Name="ToolFile">
+      <Column Name="FileID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ToolVersionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="FileTitle" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="FilePath" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="FileRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ToolVersion_ToolFile" Member="ToolVersion" ThisKey="ToolVersionID" OtherKey="VersionID" Type="ToolVersion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolPlugins" Member="ToolPlugins">
+    <Type Name="ToolPlugin">
+      <Column Name="ToolVersionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PluginToolVersionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="ToolVersion_ToolPlugin" Member="ToolVersion" ThisKey="ToolVersionID" OtherKey="VersionID" Type="ToolVersion" IsForeignKey="true" />
+      <Association Name="ToolVersion_ToolPlugin1" Member="ToolVersion1" ThisKey="PluginToolVersionID" OtherKey="VersionID" Type="ToolVersion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolDepends" Member="ToolDepends">
+    <Type Name="ToolDepend">
+      <Column Name="ToolVersionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DependToolVersionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="ToolVersion_ToolDepend" Member="ToolVersion" ThisKey="ToolVersionID" OtherKey="VersionID" Type="ToolVersion" IsForeignKey="true" />
+      <Association Name="ToolVersion_ToolDepend1" Member="ToolVersion1" ThisKey="DependToolVersionID" OtherKey="VersionID" Type="ToolVersion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolCategorys" Member="ToolCategories">
+    <Type Name="ToolCategory">
+      <Column Name="CategoryID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CategoryParent" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="ToolCategory_Tool" Member="Tools" ThisKey="CategoryID" OtherKey="CategoryID" Type="Tool" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SolutionKeywords" Member="SolutionKeywords">
+    <Type Name="SolutionKeyword">
+      <Column Name="SolusionKeywordID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SolutionKeywordName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="SolutionKeywordDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="SolutionKeyword_SolusionToKeyword" Member="SolusionToKeywords" ThisKey="SolusionKeywordID" OtherKey="SolutionKeywordID" Type="SolusionToKeyword" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SolusionToKeywords" Member="SolusionToKeywords">
+    <Type Name="SolusionToKeyword">
+      <Column Name="SolutionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SolutionKeywordID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Rate" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="SolutionKeyword_SolusionToKeyword" Member="SolutionKeyword" ThisKey="SolutionKeywordID" OtherKey="SolusionKeywordID" Type="SolutionKeyword" IsForeignKey="true" />
+      <Association Name="Solution_SolusionToKeyword" Member="Solution" ThisKey="SolutionID" OtherKey="SolusionID" Type="Solution" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectUsers" Member="ProjectUsers">
+    <Type Name="ProjectUser">
+      <Column Name="Project" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[User]" Member="User" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="User2_ProjectUser" Member="User2" ThisKey="User" OtherKey="ID" Type="User2" IsForeignKey="true" />
+      <Association Name="Project_ProjectUser" Member="Project1" ThisKey="Project" OtherKey="ID" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.User2" Member="User2s">
+    <Type Name="User2">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DefaultProject" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="User2_ProjectUser" Member="ProjectUsers" ThisKey="ID" OtherKey="User" Type="ProjectUser" />
+      <Association Name="Project_User2" Member="Project" ThisKey="DefaultProject" OtherKey="ID" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectModules" Member="ProjectModules">
+    <Type Name="ProjectModule">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Parent" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="ProjectModule_Project" Member="Projects" ThisKey="ID" OtherKey="RootModule" Type="Project" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tasks" Member="Tasks">
+    <Type Name="Task">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Parent" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Priority" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ProjectIterationID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="ProjectIteration_Task" Member="ProjectIteration" ThisKey="ProjectIterationID" OtherKey="ID" Type="ProjectIteration" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Projects" Member="Projects">
+    <Type Name="Project">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="[Desc]" Member="Desc" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="RootModule" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CurIteration" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="Project_ProjectUser" Member="ProjectUsers" ThisKey="ID" OtherKey="Project" Type="ProjectUser" />
+      <Association Name="Project_User2" Member="User2s" ThisKey="ID" OtherKey="DefaultProject" Type="User2" />
+      <Association Name="Project_ProjectIteration" Member="ProjectIterations" ThisKey="ID" OtherKey="ProjectID" Type="ProjectIteration" />
+      <Association Name="ProjectModule_Project" Member="ProjectModule" ThisKey="RootModule" OtherKey="ID" Type="ProjectModule" IsForeignKey="true" />
+      <Association Name="ProjectIteration_Project" Member="ProjectIteration" ThisKey="CurIteration" OtherKey="ID" Type="ProjectIteration" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProjectIterations" Member="ProjectIterations">
+    <Type Name="ProjectIteration">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProjectID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="[Order]" Member="Order" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="ProjectIteration_Task" Member="Tasks" ThisKey="ID" OtherKey="ProjectIterationID" Type="Task" />
+      <Association Name="ProjectIteration_Project" Member="Projects" ThisKey="ID" OtherKey="CurIteration" Type="Project" />
+      <Association Name="Project_ProjectIteration" Member="Project" ThisKey="ProjectID" OtherKey="ID" Type="Project" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Solutions" Member="Solutions">
+    <Type Name="Solution">
+      <Column Name="SolusionID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SolutionPath" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="SolutionDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RecentOpenTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="MachineName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Solution_SolusionToKeyword" Member="SolusionToKeywords" ThisKey="SolusionID" OtherKey="SolutionID" Type="SolusionToKeyword" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Books" Member="Books">
+    <Type Name="Book">
+      <Column Name="BookID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BookName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="BookRate" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="BookDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BookCover" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="BookDefaultFile" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BookDefaultKeyword" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BookPublishHouse" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BookSubTitle" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BookType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Book_BookKeywords" Member="BookKeywords" ThisKey="BookID" OtherKey="BookId" Type="BookKeywords" />
+      <Association Name="Book_BookWriters" Member="BookWriters" ThisKey="BookID" OtherKey="BookId" Type="BookWriters" />
+      <Association Name="Book_UserBooks" Member="UserBooks" ThisKey="BookID" OtherKey="BookID" Type="UserBooks" />
+      <Association Name="Book_BookComment" Member="BookComments" ThisKey="BookID" OtherKey="BookID" Type="BookComment" />
+      <Association Name="Book_File" Member="Files" ThisKey="BookID" OtherKey="BookID" Type="File" />
+      <Association Name="Keywords_Book" Member="Keywords" ThisKey="BookDefaultKeyword" OtherKey="KeywordID" Type="Keywords" IsForeignKey="true" />
+      <Association Name="File_Book" Member="File" ThisKey="BookDefaultFile" OtherKey="FileID" Type="File" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BookComments" Member="BookComments">
+    <Type Name="BookComment">
+      <Column Name="CommentID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BookID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Support" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Against" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Book_BookComment" Member="Book" ThisKey="BookID" OtherKey="BookID" Type="Book" IsForeignKey="true" />
+      <Association Name="User_BookComment" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Files" Member="Files">
+    <Type Name="File">
+      <Column Name="FileID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BookID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FilePath" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="FileDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FileVersion" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="BookResource" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UploadDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="File_Book" Member="Books" ThisKey="FileID" OtherKey="BookDefaultFile" Type="Book" />
+      <Association Name="Book_File" Member="Book" ThisKey="BookID" OtherKey="BookID" Type="Book" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ReportExceptions" Member="ReportExceptions">
+    <Type Name="ReportException">
+      <Column Name="ReportID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="StackTrace" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="UserWords" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="State" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SoftwareVersion" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SoftwareName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="User_ReportException" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="UserPassword" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="UserLastBookTick" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserLastLoginDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UserLoginCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserLastCheckBookDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="User_UserBooks" Member="UserBooks" ThisKey="UserID" OtherKey="UserID" Type="UserBooks" />
+      <Association Name="User_UserKeyword" Member="UserKeywords" ThisKey="UserID" OtherKey="UserID" Type="UserKeyword" />
+      <Association Name="User_BookComment" Member="BookComments" ThisKey="UserID" OtherKey="UserID" Type="BookComment" />
+      <Association Name="User_ReportException" Member="ReportExceptions" ThisKey="UserID" OtherKey="UserID" Type="ReportException" />
+    </Type>
+  </Table>
+</Database>

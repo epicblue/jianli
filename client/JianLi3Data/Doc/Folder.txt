@@ -1,0 +1,13 @@
+﻿Tool结构
+
+Lib
+    Book
+        <BookCategory+n>
+            <BookName>
+    Tool
+        <ToolName+n>
+            <ToolVersion>
+            
+            
+            
+            从文件创建一个工具

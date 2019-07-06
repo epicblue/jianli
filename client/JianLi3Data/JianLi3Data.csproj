@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74A9D55F-9055-4DEF-99E4-9CF42AA11539}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JianLi3Data</RootNamespace>
+    <AssemblyName>JianLi3Data</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/JianLi3Data/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;HOME</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Windows.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Book\View\BookCommentView.xaml.cs">
+      <DependentUpon>BookCommentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Book\BookQuery.cs" />
+    <Compile Include="Book\BookPropertyHelper.cs" />
+    <Compile Include="DataCenter.cs" />
+    <Compile Include="DataSetting.cs" />
+    <Compile Include="DataSettingAccessor.cs" />
+    <Compile Include="BookUser\BookAndUser.cs" />
+    <Compile Include="BookUser\KeywordAndUser.cs" />
+    <Compile Include="Book\View\BookViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book\View\BookViewControl.designer.cs">
+      <DependentUpon>BookViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JianLi.cs">
+      <DependentUpon>JianLi.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Keywords\CategoryAndKeywordControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Keywords\CategoryAndKeywordControl.designer.cs">
+      <DependentUpon>CategoryAndKeywordControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keywords\KeywordsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keywords\KeywordsEditForm.Designer.cs">
+      <DependentUpon>KeywordsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keywords\NewCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keywords\NewCategoryForm.Designer.cs">
+      <DependentUpon>NewCategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="Common\InfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\InfoBox.Designer.cs">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\JianLiIO.cs" />
+    <Compile Include="DataSettingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataSettingControl.Designer.cs">
+      <DependentUpon>DataSettingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileService\FileCache.cs" />
+    <Compile Include="FileService\IJianLiFileService.cs" />
+    <Compile Include="FileService\JianLi3Client.cs" />
+    <Compile Include="FileService\JianLi3FileServiceManager.cs" />
+    <Compile Include="FileService\JianLi3Local.cs" />
+    <Compile Include="FileService\LocalAction.cs" />
+    <Compile Include="JianLi.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JianLi.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="JianLiLinq.cs" />
+    <Compile Include="PathCenter.cs" />
+    <Compile Include="ProjectView\IterationEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectView\IterationEditForm.Designer.cs">
+      <DependentUpon>IterationEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectView\IterationsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectView\IterationsEditForm.Designer.cs">
+      <DependentUpon>IterationsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectView\ModuleCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectView\ModuleCreateForm.Designer.cs">
+      <DependentUpon>ModuleCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectView\ProjectCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectView\ProjectCreateForm.Designer.cs">
+      <DependentUpon>ProjectCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectView\ProjectTreeVIewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProjectView\ProjectTreeVIewControl.Designer.cs">
+      <DependentUpon>ProjectTreeVIewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectView\TaskCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectView\TaskCreateForm.Designer.cs">
+      <DependentUpon>TaskCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\JianLi3Server\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SolusionEdit\SolutionAddKeywordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolusionEdit\SolutionAddKeywordForm.Designer.cs">
+      <DependentUpon>SolutionAddKeywordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolutionEditWPF\SolutionView.xaml.cs">
+      <DependentUpon>SolutionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ToolEdit\CreateToolFromFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolEdit\CreateToolFromFile.Designer.cs">
+      <DependentUpon>CreateToolFromFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolView\ToolFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolView\ToolFile.Designer.cs">
+      <DependentUpon>ToolFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolView\ToolInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolView\ToolInfo.Designer.cs">
+      <DependentUpon>ToolInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolView\ToolSearchResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolView\ToolSearchResult.Designer.cs">
+      <DependentUpon>ToolSearchResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolView\ToolTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolView\ToolTree.Designer.cs">
+      <DependentUpon>ToolTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\RecordException.cs" />
+    <Compile Include="Common\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="JianLi.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>JianLi.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JianLi.dbml.layout">
+      <DependentUpon>JianLi.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Book\View\BookViewControl.resx">
+      <DependentUpon>BookViewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keywords\CategoryAndKeywordControl.resx">
+      <DependentUpon>CategoryAndKeywordControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keywords\KeywordsEditForm.resx">
+      <DependentUpon>KeywordsEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keywords\NewCategoryForm.resx">
+      <DependentUpon>NewCategoryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\InfoBox.resx">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSettingControl.resx">
+      <DependentUpon>DataSettingControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectView\IterationEditForm.resx">
+      <DependentUpon>IterationEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectView\IterationsEditForm.resx">
+      <DependentUpon>IterationsEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectView\ModuleCreateForm.resx">
+      <DependentUpon>ModuleCreateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectView\ProjectCreateForm.resx">
+      <DependentUpon>ProjectCreateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectView\ProjectTreeVIewControl.resx">
+      <DependentUpon>ProjectTreeVIewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectView\TaskCreateForm.resx">
+      <DependentUpon>TaskCreateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolusionEdit\SolutionAddKeywordForm.resx">
+      <DependentUpon>SolutionAddKeywordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolEdit\CreateToolFromFile.resx">
+      <DependentUpon>CreateToolFromFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolView\ToolFile.resx">
+      <DependentUpon>ToolFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolView\ToolInfo.resx">
+      <DependentUpon>ToolInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolView\ToolSearchResult.resx">
+      <DependentUpon>ToolSearchResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolView\ToolTree.resx">
+      <DependentUpon>ToolTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\JianLi3Server\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\JianLi3Server\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\JianLi3Server\Message1.xsd" />
+    <None Include="Service References\JianLi3Server\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\JianLi3Server\service1.wsdl" />
+    <None Include="Service References\JianLi3Server\service2.xsd" />
+    <None Include="Service References\JianLi3Server\service21.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Doc\Folder.txt" />
+    <None Include="Service References\JianLi3Server\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Book\View\BookCommentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SolutionEditWPF\SolutionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

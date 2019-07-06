@@ -1,0 +1,91 @@
+﻿调整文件最大接收尺寸：2G = 2147483648, maxReceivedMessageSize
+Local <<<->>> Remote
+SQL Server 打开TCP-IP连接。
+
+Home <<<->>> Office
+JianLi3Data HOME和OFFICE编译预定义切换。决定连接字符串（验证方式）和默认主机。
+
+Local <<<->>> force Remote
+JianLi3Data 编译预定义:FORCEREMOTE，决定LocalMode的返回方式。
+
+
+ToDoList
+
+High 安全性。
+		修改客户端来使用其它人名字。
+		恶意上传大量数据（文件）。	
+Normal 可以在标签中直接添加文件。
+High 需要给出基本的使用帮助。包括：上传文件。 Wide Range
+Normal 集成文件预览。
+Normal 图形文件的压缩包不支持。
+Normal 评论还可以打分（只有支持，和反对2种，当然一个人对一个评论只能打一次分）。
+Very Low 评论丰富性：可以使用RichEdit。
+Normal 即时通信。
+Normal 更直接的提交反馈。（欢迎提交五个字以上的句子。）
+Normal   如何捕捉没有处理的异常。
+Normal 可以添加书签。
+Normal 记录请假记录。
+High 考虑个人关键字的行为。
+High 确定在VS2008中作为面板的可能性。
+		为什么我不使用ToDoList?
+			不够顺手。最好能像一个TextBox一样修改。
+			！！！能做到的，和不能做到的事情混在一起。让人沮丧。所以，要能够像本文一样，使用想到的，准备做的，做完了的方式来查看事情。
+	 如何管理项目中的问题，从技术角度，从功能角度。
+Normal 轻松的为软件添加建议．
+Normal 获得书本的所有贡献者，延迟加载．	
+Normal 需要BookListView能支持拖拽。
+
+
+
+0.5.0.0
+Normal 评论，使用WPF更新评论。
+Normal 评论，可以修改以前的评论（出于严谨的考虑）。		
+High 权限，考虑权限系统。
+High 个性化，考虑私人的关键字和类别系统。
+High 隐患，使用其它人名字。（添加密码）
+High 隐患，恶意修改大量数据。		
+
+
+
+done High 需要对书籍信息的修改方式。因为很多情况下，用户填写的信息是随意的。
+done Normal 新书提醒。比如添加新书的时候能提供一个提醒。添加查询：“最新添加的10书”。
+	比如将更新发布在WSS上的提醒方式。[WSS很少使用]
+	或使用E-mail的提醒方式。[E-mail很少使用]
+done High 选取关键字的时候，同步刷新评论。
+done High 获得软件的异常信息。简单记录StackTrace和Message。
+done High 获得书本的所有贡献者．			
+done Normal 书籍评论。每个人对书都可以有多个评论。value 可以吸引别人使用独立的用户名，也可以更快的交换和扩展知识。
+0.3.1.1
+done High 基本书籍信息编辑，MVP模式基本使用。
+done High Bug 处理关键字重复添加异常，逻辑代码聚合。
+done Low 修正ToolTips。
+0.3.1
+done High 不使用PDF的图形预览方式的添加文件。
+done High 如何在ExplorerTree里面定位路径。
+dine High 需要能够过滤ExplorerTree里面不是文件夹的对象。
+done Normal 新文件面板:使用资源管理器类型来收集文件。并记录当前路径。
+Cancel High 客户端上传时不移动文件方式。Personal
+done 设定，添加“用户名”设定,整理“用户名”相关设置代码。
+done Highest 对可执行程序进行提醒。
+done 将目录和服务器存放在注册表中。
+    Registry.CurrentUser.Software.JianLi3
+    UserName
+    SeverName
+    IncomingFolder
+    LibFolder
+    OtherFolder
+
+    启动时查询项是否存在。
+    
+
+原则：
+第一个界面上面必须要有用户所需要的全部功能。
+必须保证所有功能的正常跟踪。
+保证团队的专业．比如像找编程人员还真是Cnblogs好找。
+		
+论文选题：
+关于Windows界面编程。
+
+0.4的主题
+共享、发展。
+以书为纽带保持联系，共同前进。

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WCF.ServiceHost2</name>
+    </assembly>
+    <members>
+        <member name="T:WCF.ServiceHost2.Binding.Hello">
+            <summary>
+            host WCF.ServiceLib.Binding.Hello的类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceHost2.Binding.Hello.Launch">
+            <summary>
+            启动WCF.ServiceLib.Binding.Hello服务
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceHost2.Message.Streamed">
+            <summary>
+            host WCF.ServiceLib.Message.Streamed的类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceHost2.Message.Streamed.Launch">
+            <summary>
+            启动WCF.ServiceLib.Message.Streamed服务
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceHost2.Message.DuplexReentrant">
+            <summary>
+            host WCF.ServiceLib.Message.DuplexReentrant的类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceHost2.Message.DuplexReentrant.Launch">
+            <summary>
+            启动WCF.ServiceLib.Message.DuplexReentrant服务
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceHost2.Message.OneWay">
+            <summary>
+            host WCF.ServiceLib.Message.OneWay的类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceHost2.Message.OneWay.Launch">
+            <summary>
+            启动WCF.ServiceLib.Message.OneWay服务
+            </summary>
+        </member>
+        <member name="T:WCF.ServiceHost2.Message.Duplex">
+            <summary>
+            host WCF.ServiceLib.Message.Duplex的类
+            </summary>
+        </member>
+        <member name="M:WCF.ServiceHost2.Message.Duplex.Launch">
+            <summary>
+            启动WCF.ServiceLib.Message.Duplex服务
+            </summary>
+        </member>
+    </members>
+</doc>

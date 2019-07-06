@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D7BD8FF-D9B4-4FC7-A23F-7BE11BC4DDB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JianLi3</RootNamespace>
+    <AssemblyName>JianLi3</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>3179E19D343E9348A9831A281C66ED4907A42431</ManifestCertificateThumbprint>
+    <ManifestKeyFile>JianLi3_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost:8090/JianLi3/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationVersion>0.4.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;HOME</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\WindowsFormsIntegration\3.0.0.0__31bf3856ad364e35\WindowsFormsIntegration.dll</HintPath>
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\CreateCommentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\CreateCommentForm.Designer.cs">
+      <DependentUpon>CreateCommentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\BookEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\BookEditForm.Designer.cs">
+      <DependentUpon>BookEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\BookEditPresent.cs" />
+    <Compile Include="Book\BookInfoViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Book\BookInfoViewControl.Designer.cs">
+      <DependentUpon>BookInfoViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\INewBookView.cs" />
+    <Compile Include="Book\NewBookPresent.cs" />
+    <Compile Include="AppSetting\JianLi3WinFormSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppSetting\JianLi3WinFormSettingsControl.Designer.cs">
+      <DependentUpon>JianLi3WinFormSettingsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\ExplorerTreeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\ExplorerTreeControl.Designer.cs">
+      <DependentUpon>ExplorerTreeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppSetting\JianLi3WinFormSettingsAccessor.cs" />
+    <Compile Include="Keyword\KeywordsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keyword\KeywordsEditForm.Designer.cs">
+      <DependentUpon>KeywordsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keyword\KeywordSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keyword\KeywordSelectForm.Designer.cs">
+      <DependentUpon>KeywordSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WPF\BookListView.xaml.cs">
+      <DependentUpon>BookListView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main\ProtypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\ProtypeForm.Designer.cs">
+      <DependentUpon>ProtypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppSetting\JianLi3WinFormSettings.cs" />
+    <Compile Include="AppSetting\AppSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppSetting\AppSettingForm.Designer.cs">
+      <DependentUpon>AppSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\CreateBookFromFileNormalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\CreateBookFromFileNormalForm.Designer.cs">
+      <DependentUpon>CreateBookFromFileNormalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\IBookEditView.cs" />
+    <Compile Include="Help\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\BookLibControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\BookLibControl.Designer.cs">
+      <DependentUpon>BookLibControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\CreateBookFromFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book\CreateBookFromFileForm.Designer.cs">
+      <DependentUpon>CreateBookFromFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book\FileViewer.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\NewFilesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\NewFilesControl.Designer.cs">
+      <DependentUpon>NewFilesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main\AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\CreateCommentForm.resx">
+      <DependentUpon>CreateCommentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\BookEditForm.resx">
+      <DependentUpon>BookEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\BookInfoViewControl.resx">
+      <DependentUpon>BookInfoViewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppSetting\JianLi3WinFormSettingsControl.resx">
+      <DependentUpon>JianLi3WinFormSettingsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\ExplorerTreeControl.resx">
+      <DependentUpon>ExplorerTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keyword\KeywordsEditForm.resx">
+      <DependentUpon>KeywordsEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keyword\KeywordSelectForm.resx">
+      <DependentUpon>KeywordSelectForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\ProtypeForm.resx">
+      <DependentUpon>ProtypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppSetting\AppSettingForm.resx">
+      <DependentUpon>AppSettingForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\CreateBookFromFileNormalForm.resx">
+      <DependentUpon>CreateBookFromFileNormalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\BookLibControl.resx">
+      <DependentUpon>BookLibControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book\CreateBookFromFileForm.resx">
+      <DependentUpon>CreateBookFromFileForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <EmbeddedResource Include="Main\NewFilesControl.resx">
+      <DependentUpon>NewFilesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Books\SearchResultBookViewControl.resx">
+      <DependentUpon>SearchResultBookViewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UserLoginForm.resx">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UserViewControl.resx">
+      <DependentUpon>UserViewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Books\SearchResultBookViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Books\SearchResultBookViewControl.Designer.cs">
+      <DependentUpon>SearchResultBookViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendMail.cs" />
+    <Compile Include="Users\UserLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\UserLoginForm.Designer.cs">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UserViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UserViewControl.Designer.cs">
+      <DependentUpon>UserViewControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JianLi3Data\JianLi3Data.csproj">
+      <Project>{74A9D55F-9055-4DEF-99E4-9CF42AA11539}</Project>
+      <Name>JianLi3Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LusongControl\LusongControl.csproj">
+      <Project>{8315BC7F-59B4-49D6-A62E-BC7C9FFD4880}</Project>
+      <Name>LusongControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinShell\WinShell.csproj">
+      <Project>{5C1F5D13-B5F3-46F6-8A25-D02D7D0C83B8}</Project>
+      <Name>WinShell</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="book.jpg" />
+    <None Include="Text\JianLi3权限.txt" />
+    <None Include="Text\SourceCode.txt" />
+    <None Include="Text\HandSwitch.txt" />
+    <None Include="JianLi3_TemporaryKey.pfx" />
+    <None Include="Text\JianLi3 说明.doc">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="WPF\BookListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Notes="&lt;Notes Project=&quot;2d7bd8ff-d9b4-4fc7-a23f-7be11bc4ddb3&quot; xmlns=&quot;clr-namespace:StickyNotes.Model;assembly=StickyNotes&quot;&gt;&lt;Notes.StickyNotes&gt;&lt;Note FilePath=&quot;&quot; Content=&quot;&quot; Date=&quot;2010-01-12T21:06:24.75+08:00&quot; /&gt;&lt;Note FilePath=&quot;F:\编程\JianLi3\source\client\JianLi3\Books\SearchResultBookViewControl.cs&quot; Content=&quot;打开解决方案实在是太慢了，这里只有2个项目&amp;#xD;&amp;#xA;BookRate还有一点复杂&amp;#xD;&amp;#xA;需要支持BookRate的平均分&quot; Date=&quot;2010-01-12T23:14:19.53125+08:00&quot; /&gt;&lt;/Notes.StickyNotes&gt;&lt;/Notes&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
